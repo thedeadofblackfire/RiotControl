@@ -84,7 +84,7 @@
 	RiotControl.on('item_detail_changed', function(item) {
 		self.edit = false
 	    self.detail = item
-	    riot.update()
+	    self.update()
 	})
 
 	RiotControl.on('item_detail_create', function() {

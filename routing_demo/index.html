@@ -19,7 +19,7 @@
 
     <item-app></item-app>
 
-    <script src="js/riot.js"></script>
+    <script src="js/riot+compiler.min.js"></script>
     <script src="riotcontrol.js"></script>
     <script src="itemstore.js"></script>
     <script src="item-detail.js"></script>
@@ -42,7 +42,7 @@
       // Riot router
       riot.route(router)
       // Execute router function once for rendering the items
-      riot.route.exec(router);
+      riot.route.start(true);
     </script>
 
   </body>

@@ -47,7 +47,7 @@ riot.tag('item-app', '<h3>Gadget Browser <a href="https://github.com/jimsparkman
 	RiotControl.on('item_detail_changed', function(item) {
 		self.edit = false
 	    self.detail = item
-	    riot.update()
+	    self.update()
 	})
 
 	RiotControl.on('item_detail_create', function() {
